@@ -94,7 +94,7 @@ iframe {
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 10px;
-  margin-bottom: 25x;
+  margin-bottom: 25px;
 }
 .maps{
   margin-top: 25%;
@@ -182,5 +182,34 @@ fieldset p {
 }
 .photo{
   margin-left: 10px;
+  position: relative;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 }
+.prueba{
+  float: center;
+  text-align: center;
+  align-items: center;
+}
+  
+  .typ{
+    position: absolute;
+    display:block;
+    background-color: rgb(255, 255, 255);
+    margin-left: 80px;
+    border-radius: 30px;
+    block-size: auto;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: -25px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .tipo{
+    border-radius: 10px;
+    background-color: rgb(253, 217, 98);
+    margin-left: 50px;
+    margin-left: 10px;
+  }
