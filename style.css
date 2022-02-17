@@ -134,17 +134,6 @@ footer {
   font-family: "Abril Fatface", cursive;
   src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 }
-div img {
-  margin-top: 2%;
-  box-sizing: content-box;
-  width: 20%;
-  height: 20%;
-  margin-right: 2%;
-  margin-left: 3%;
-  float: right;
-  margin-block-end: 5%;
-}
-
 form fieldset {
   background-color: rgb(255, 250, 180);
   width: 50%;
@@ -184,5 +173,14 @@ fieldset p {
   font-family: "Righteous", cursive;
   text-align: center;
   color: cornflowerblue;
+}
+.espacio{
+  margin-left: 70px;
+}
+.edic{
+  margin-left: 15px;
+}
+.photo{
+  margin-left: 10px;
 }
 }
