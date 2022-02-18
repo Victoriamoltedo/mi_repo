@@ -5,7 +5,8 @@
   list-style: none;
   text-decoration: none;
 }
-@media screen and (max-width:1420px){
+@media screen and (max-width:992px) and (min-width:576px) 
+{
 
 .yellow {
   background-color: rgb(255, 240, 109);
