@@ -218,9 +218,9 @@ fieldset p {
     text-decoration: none;
     display: block;
     padding: 10px 20px;
-    border-bottom: 2px solid #456789;
+    border-bottom: 2px solid #ffe711;
     max-width: 200px;
-    background: #234567;
+    background: #fff01e;
     font-variant: small-caps;
     text-shadow: 1px 1px black;
   }
