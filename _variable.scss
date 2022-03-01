@@ -1,0 +1,29 @@
+$title-font: 'Times New Roman', Times, serif;
+$text-aling: center;
+
+.prueba{
+    float: center;
+    text-align: $text-aling;
+    align-items: center;
+  }
+    
+    .typ{
+      position: absolute;
+      display:block;
+      background-color: rgb(255, 255, 255);
+      margin-left: 80px;
+      border-radius: 30px;
+      block-size: auto;
+      font-size: 30px;
+      font-family: $title-font;
+      font-weight: bold;
+      margin-top: -25px;
+      text-align: $text-aling;
+      margin-left: 10px;
+    }
+    .tipo{
+      border-radius: 10px;
+      background-color: rgb(253, 217, 98);
+      margin-left: 50px;
+      margin-left: 10px;
+    }
