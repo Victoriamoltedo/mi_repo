@@ -213,4 +213,7 @@ fieldset p {
     margin-left: 50px;
     margin-left: 10px;
   }
-  
+  .body {
+    width: 100vw;
+    overflow-x:hidden;
+  }
