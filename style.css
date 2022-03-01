@@ -5,211 +5,218 @@
   list-style: none;
   text-decoration: none;
 }
-@media screen and (max-width:1420px){
+@media (max-width: 1420px) and (min-width: 600px) {
+  .yellow {
+    background-color: rgb(255, 240, 109);
+    width: 100%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 0px;
+    box-sizing: border-box;
+  }
+  .brand {
+    margin-left: 5%;
+    line-height: 80px;
+  }
+  .brand a {
+    color: white;
+    font-size: 30px;
+  }
+  nav ul {
+    float: right;
+    margin-right: 5%;
+    padding-top: 5px;
+    box-sizing: border-box;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 20px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: "Abril Fatface", cursive;
+  }
+  nav ul li a:hover {
+    color: #3a8cb3;
+  }
+  .brand img {
+    width: 130px;
+    height: 70px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: -190%;
+  }
+  .titulo {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-style: "Righteous", cursive;
+    color: #279baa;
+    font-size: 60px;
+  }
+  .gray-text-shadow {
+    text-shadow: 1px 1px 2px rgb(66, 66, 66), 0 0 1em rgb(166, 214, 255),
+      0 0 0.2em rgb(84, 100, 250);
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-style: "Righteous", cursive;
+    color: #279baa;
+    font-size: 60px;
+  }
+  .colorFondo {
+    background-color: #fff0ad;
+  }
+  .oficina {
+    float: left;
+    margin: 2%;
+    width: 90%;
+    height: 115%;
+    margin-left: 8%;
+    border-radius: 10px;
+  }
+  .referencia {
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 4%;
+    line-height: 45px;
+    font-weight: bold;
+    float: right;
+  }
+  iframe {
+    float: left;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .maps {
+    margin-top: 25%;
+    margin-left: 25%;
+  }
 
-.yellow {
-  background-color: rgb(255, 240, 109);
-  width: 100%;
-  height: 70px;
-  float: left;
-  text-align: right;
-  padding-top: 0px;
-  box-sizing: border-box;
-}
-.brand {
-  margin-left: 5%;
-  line-height: 80px;
-}
-.brand a {
-  color: white;
-  font-size: 30px;
-}
-nav ul {
-  float: right;
-  margin-right: 5%;
-  padding-top: 5px;
-  box-sizing: border-box;
-}
-nav ul li {
-  display: inline-block;
-  line-height: 70px;
-  margin-left: 20px;
-}
-nav ul li a {
-  color: white;
-  font-size: 23px;
-  font-weight: bold;
-  letter-spacing: 3px;
-  font-family: "Abril Fatface", cursive;
-}
-nav ul li a:hover {
-  color: #3a8cb3;
-}
-.brand img {
-  width: 130px;
-  height: 70px;
-  box-sizing: border-box;
-  float: left;
-  margin-left: -190%;
-}
-.titulo {
-  margin-top: 3%;
-  margin-bottom: 2%;
-  text-align: center;
-  font-style: "Righteous", cursive;
-  color: #279baa;
-  font-size: 60px;
-}
-.gray-text-shadow {
-  text-shadow: 1px 1px 2px rgb(66, 66, 66), 0 0 1em rgb(166, 214, 255), 0 0 0.2em rgb(84, 100, 250);
-  margin-top: 3%;
-  margin-bottom: 2%;
-  text-align: center;
-  font-style: "Righteous", cursive;
-  color: #279baa;
-  font-size: 60px;
-}
-.colorFondo {
-  background-color: #fff0ad;
-}
-.oficina {
-  float: left;
-  margin: 2%;
-  width: 90%;
-  height: 115%;
-  margin-left: 8%;
-  border-radius: 10px;
-}
-.referencia {
-  text-align: center;
-  margin-top: 20%;
-  margin-right: 4%;
-  line-height: 45px;
-  font-weight: bold;
-  float: right;
-}
-iframe {
-  float: left;
-  text-align: left;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 10px;
-  margin-bottom: 25px;
-}
-.maps{
-  margin-top: 25%;
-  margin-left: 25%;
-}
+  .ubicacion {
+    margin-top: 40%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    background-color: #3a8cb3;
+    border-radius: 20px;
+    color: aliceblue;
+  }
 
-.ubicacion {
-  margin-top: 40%;
-  margin-right: 20%;
-  text-align: center;
-  font-family: cursive;
-  font-size: 30px;
-  background-color: #3a8cb3;
-  border-radius: 20px;
-  color: aliceblue;
+  footer {
+    margin-top: 10%;
+    margin-bottom: 10px;
+    background-color: rgb(255, 240, 109);
+  }
+  .redes {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #3a8cb3;
+    font-weight: bold;
+    margin-left: 45px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  @font-face {
+    font-family: "Righteous", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+  }
+  @font-face {
+    font-family: "Abril Fatface", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+  }
+  form fieldset {
+    background-color: rgb(255, 250, 180);
+    width: 50%;
+    height: 70%;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: 20px;
+  }
+  fieldset p {
+    margin-left: 10%;
+  }
+  .botones {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .body {
+    height: 90%;
+    background: white;
+    background: linear-gradient(180deg, #f2f4f4 50%, white 90%);
+  }
+  .subtitulo {
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(35, 187, 136);
+    font-family: "Faster One", cursive;
+    font-size: 25px;
+  }
+  @font-face {
+    font-family: "Faster One", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+  }
+  .mis {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Righteous", cursive;
+    text-align: center;
+    color: cornflowerblue;
+  }
+  .espacio {
+    margin-left: 70px;
+  }
+  .edic {
+    margin-left: 15px;
+  }
+  .photo {
+    margin-left: 10px;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
 }
-
-footer {
-  margin-top: 10%;
-  margin-bottom: 10px;
-  background-color:rgb(255, 240, 109);
-}
-.redes{
-  font-size: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color:#3a8cb3;
-  font-weight: bold;
-  margin-left: 45px;
-  text-align: center;
-  margin-top: 8px;
-}
-@font-face {
-  font-family: "Righteous", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-}
-@font-face {
-  font-family: "Abril Fatface", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-}
-form fieldset {
-  background-color: rgb(255, 250, 180);
-  width: 50%;
-  height: 70%;
-  text-align: left;
-  margin-left: 25%;
-  margin-top: 5%;
-  font-size: 20px;
-}
-fieldset p {
-  margin-left: 10%;
-}
-.botones {
-  text-align: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
-}
-.body {
-  height: 90%;
-  background: white;
-  background: linear-gradient(180deg, #f2f4f4 50%, white 90%);
-}
-.subtitulo {
-  text-align: center;
-  margin-top: 5%;
-  color: rgb(35, 187, 136);
-  font-family: "Faster One", cursive;
-  font-size: 25px;
-}
-@font-face {
-  font-family: "Faster One", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
-}
-.mis {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: "Righteous", cursive;
-  text-align: center;
-  color: cornflowerblue;
-}
-.espacio{
-  margin-left: 70px;
-}
-.edic{
-  margin-left: 15px;
-}
-.photo{
-  margin-left: 10px;
-  position: relative;
-  margin-left: 10px;
-  border-radius: 10px;
-}
-}
-.prueba{
+.prueba {
   float: center;
   text-align: center;
   align-items: center;
 }
-  
-  .typ{
-    position: absolute;
-    display:block;
-    background-color: rgb(255, 255, 255);
-    margin-left: 80px;
-    border-radius: 30px;
-    block-size: auto;
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-top: -25px;
-    text-align: center;
-    margin-left: 10px;
-  }
-  .tipo{
-    border-radius: 10px;
-    background-color: rgb(253, 217, 98);
-    margin-left: 50px;
-    margin-left: 10px;
-  }
+
+.typ {
+  position: absolute;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  margin-left: 80px;
+  border-radius: 30px;
+  block-size: auto;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-top: -25px;
+  text-align: center;
+  margin-left: 10px;
+}
+.tipo {
+  border-radius: 10px;
+  background-color: rgb(253, 217, 98);
+  margin-left: 50px;
+  margin-left: 10px;
+}
+.body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.col-md-3:hover {
+  color: #3a8cb3;
+}
