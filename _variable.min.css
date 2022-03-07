@@ -1,1 +1,40 @@
-.prueba{float:center;text-align:center;align-items:center}.typ{position:absolute;display:block;background-color:#fff;margin-left:80px;border-radius:30px;block-size:auto;font-size:30px;font-family:"Times New Roman",Times,serif;font-weight:bold;margin-top:-25px;text-align:center;margin-left:10px}.tipo{border-radius:10px;background-color:#fdd962;margin-left:50px;margin-left:10px}
+.prueba{float:center;text-align:center;align-items:center}.typ{position:absolute;display:block;background-color:#fff;margin-left:80px;border-radius:30px;block-size:auto;font-size:30px;font-family:"Times New Roman",Times,serif;font-weight:bold;margin-top:-25px;text-align:center;margin-left:10px}.tipo{border-radius:10px;background-color:#fdd962;margin-left:50px;margin-left:10px;}
+
+@while $font-size <= 18 {
+    .font-size-#{$font-size} {
+        font-size: ($font-size * 1px);
+    }
+    $font-size: $font-size + 2;
+}
+@for $i from 1 through 3 {
+    .foo-#{$i} { width: 10px * $i; }
+  }
+  .font-size-12 {
+    font-size: 12px;
+  }
+  
+  .font-size-14 {
+    font-size: 14px;
+  }
+  
+  .font-size-16 {
+    font-size: 16px;
+  }
+  
+  .font-size-18 {
+    font-size: 18px;
+  }
+ 
+ $test-variable: true !default
+
+@mixin test-mixin() {
+  @if $test-variable {
+    display: block;
+  } @else {
+    display: none;
+  }
+}
+
+.test-selector {
+  @include test-mixin();
+}
