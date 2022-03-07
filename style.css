@@ -5,7 +5,7 @@
   list-style: none;
   text-decoration: none;
 }
-@media screen and (max-width:1420px){
+@media (max-width:1420px) and (min-width:600px){
 
 .yellow {
   background-color: rgb(255, 240, 109);
@@ -213,3 +213,4 @@ fieldset p {
     margin-left: 50px;
     margin-left: 10px;
   }
+  
